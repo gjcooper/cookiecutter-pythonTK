@@ -1,0 +1,12 @@
+{
+	"full_name": "Gavin Cooper",
+	"email": "gavin@gavincooper.net",
+	"github_username": "gjcooper",
+	"project_title": "BareBonesPythonApplication",
+	"app_name": "guiApp",
+	"project_short_description": "A python TK GUI that can be installed on Windows",
+	"version": "0.0.1",
+	"open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"],
+    "tcl_path": "C:\\Users\\gjc216\\AppData\\Local\\Continuum\\Anaconda3\\tcl",
+    "dll_path": "C:\\Users\\gjc216\\AppData\\Local\\Continuum\\Anaconda3\\DLLs"
+}
