@@ -1,11 +1,7 @@
 import tkinter as tk
 from tkinter.filedialog import askopenfilename, asksaveasfilename
 from tkinter.messagebox import showinfo
-from collections import Counter
-import statistics as stats
-from prespy.logfile import load
 from csv import DictWriter
-from argparse import Namespace
 import os
 import sys
 
@@ -100,5 +96,5 @@ if __name__ == '__main__':
         root.iconbitmap(find_data_file('{{ cookiecutter.app_name }}.ico'))
     except tk.TclError:
         pass
-    TkPosnerAnalyser(root).pack()
+    {{ cookiecutter.project_title }}(root).pack()
     root.mainloop()

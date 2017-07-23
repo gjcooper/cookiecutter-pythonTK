@@ -8,10 +8,10 @@ base = None
 if sys.platform == 'win32':
     base = 'Win32GUI'
 
-tcl_path = {{ cookiecutter.tcl_path }}
+tcl_path = r'{{ cookiecutter.tcl_path }}'
 os.environ['TCL_LIBRARY'] = os.path.join(tcl_path, 'tcl8.6')
 os.environ['TK_LIBRARY'] = os.path.join(tcl_path, 'tk8.6')
-dll_path = {{ cookiecutter.dll_path }}
+dll_path = r'{{ cookiecutter.dll_path }}'
 include = [(os.path.join(dll_path, 'tcl86t.dll'), 'tcl86t.dll'),
            (os.path.join(dll_path, 'tk86t.dll'), 'tk86t.dll'),
            ('{{ cookiecutter.app_name }}.ico', '{{ cookiecutter.app_name }}.ico')]
